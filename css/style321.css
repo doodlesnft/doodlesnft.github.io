@@ -1,0 +1,206 @@
+body {
+
+}
+
+a {
+	text-decoration: none!important;
+}
+/*
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none;}
+input[type='number'], input[type="number"]:hover, input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+*/
+.metamask {
+}
+
+.metamask-logo img {
+	height: 5%;
+	width: 5%;
+	margin-left: 1rem;
+}
+
+.metamask_content {
+	margin: auto;
+}
+
+.metamask_content-title {
+
+}
+
+.metamask_content-input {
+	margin: 10px 0;
+}
+
+.eth_input {
+	border: 1px solid #000;
+	outline: 0;
+	width: 100% !important;
+	max-width: 510px;
+	padding: 10px 1rem;
+	border-radius: 0px;
+	outline: none !important;
+	color: #000 !important;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.2em;
+    font-weight: 600;
+	margin: 17px auto;
+}
+
+.metamask_content-input_eth-arrow {
+	position: relative;
+}
+
+.metamask_content-input_eth-arrow_block {
+	position: absolute;
+	right: 17px;
+	top: 1px;
+	user-select: none;
+	color: #000;
+}
+
+.up_arrow, .down_arrow {
+	cursor: pointer;
+	transition: .3s;
+	padding: 7.5px 15px;
+	background: #6a54b6;
+	color: #fff;
+	font-weight: 700;
+	width: 40px;
+}
+
+.down_arrow {
+	float: left;
+}
+
+.up_arrow, .down_arrow {
+	cursor: pointer;
+	transition: .3s;
+}
+
+.up_arrow:hover, .down_arrow:hover {
+	color: rgba(162, 162, 162);
+}
+
+.metamask_content-input_total {
+	justify-self: center;
+	align-items: center;
+	font-size: 18.5px;
+	margin: 10px 0 0 0;
+	display: inline-flex;
+}
+
+.metamask_content-input_total-result {
+	margin: 0 0 0 5px;
+	display: inline-block;
+}
+
+.metamask_content-input_total-result img {
+	width: 15px;
+	justify-self: center;
+	align-items: center;
+	height: 15px;
+}
+
+.metamask_content-btn {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	text-transform: uppercase;
+	font-size: 16px!important;
+	min-width: 214px;
+	text-align: center;
+	margin-top: 0!important;
+}
+
+.metamask_content-btn:hover {
+
+}
+
+.metamask_content-btn:disabled {
+	background-color: rgba(128, 128, 128, .6);
+}
+
+.metamask_install-btn {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	text-transform: uppercase;
+	font-size: 16px!important;
+	min-width: 214px;
+	text-align: center;
+	margin-top: 0!important;
+}
+
+.link_metamask_install-btn {
+	width: 100%;
+}
+
+.metamask_install-btn:hover {
+
+}
+
+.container_metamask_content-btn {
+	display: none;
+}
+
+@media (max-width: 1300px) {
+	.metamask {
+		max-width: auto;
+		min-width: auto;
+		width: auto;
+		box-sizing: border-box;
+	}
+
+	.metamask_content-btn {
+		white-space: nowrap;
+	}
+
+	.metamask_install-btn {
+		white-space: nowrap;
+	}
+}
+
+.eth_input2 {
+    width: 100% !important;
+    padding: 10px 1rem;
+    outline: none !important;
+    color: #ffcc70 !important;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 15px auto;
+    text-align: center;
+    min-width: 330px;
+    background: transparent;
+    max-width: 330px;
+    border: 3px solid #ffcc70;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+.ethinputor span {
+    width: 2px;
+    margin-bottom: -1px;
+    height: 29px;
+    background: #ffcc70;
+    opacity: 1;
+    display: inline-block;
+    position: relative;
+    left: -88px;
+    top: 6px;
+}
+
+.boonji-section-dutch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 3px;
+}
+
+.dutch-price-bottom {
+    padding: 30px 15px 10px;
+}
+
+.next-price-title {
+	margin-bottom: 0;
+}

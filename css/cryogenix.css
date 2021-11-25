@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Cryogenix';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cryogenix'), url('../fonts/Cryogenix.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cryogenix';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cryogenix'), url('../fonts/Cryogenix.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cryogenix';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cryogenix'), url('../fonts/Cryogenix%20Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cryogenix';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cryogenix'), url('../fonts/Cryogenix%20Italic.woff') format('woff');
+}
+
+
